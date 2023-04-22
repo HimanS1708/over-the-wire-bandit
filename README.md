@@ -91,3 +91,7 @@ Command -```base64 -d data.txt```
 Explanation - The **"-d"** tag decodes the data.
 
 ## Level 11 -> Level 12
+
+Command -```cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'```
+
+Explanation - Rotated the small characters first and then the second characters. **NOTE:** Rotation by 13 is an inverse of itself.
