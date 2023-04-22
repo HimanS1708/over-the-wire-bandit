@@ -56,4 +56,6 @@ Commands -
 2. find -readable ! -executable -size 1033c
 ```
 
+Explanation - **"c"** specifies byte.
+
 ## Level 6 -> Level 7
