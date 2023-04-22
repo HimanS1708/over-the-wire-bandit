@@ -59,3 +59,11 @@ Commands -
 Explanation - **"c"** specifies byte.
 
 ## Level 6 -> Level 7
+
+Commands -
+```
+1. cd /
+2. find 2>/dev/null -user bandit7 -group bandit6 -size 33c
+```
+
+Explanation - Went to the root folder then searched according to the given conditions. **2>/dev/null** avoids all displays where the Permission was denied.
