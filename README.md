@@ -83,3 +83,11 @@ Explanation - **Uniq** command removes duplicate strings only if they are adjace
 Command -```grep -a "=====" data.txt```
 
 Explanation - The **"-a"** tag processes a binary file as if it were text. Manually searched for something that looked like a readable string🤷‍♀️.
+
+## Level 10 -> Level 11
+
+Command -```base64 -d data.txt```
+
+Explanation - The **"-d"** tag decodes the data.
+
+## Level 11 -> Level 12
