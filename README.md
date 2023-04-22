@@ -38,3 +38,11 @@ Commands -
 Explanation - The **-a** option shows both visible and hidden files present in a directory.
 
 ## Level 4 -> Level 5
+
+Commands -
+```
+1. cd inhere
+2. file -- *
+```
+
+Explanation - The names of all files start with a **"-"** so we use **"--"** to ignore further options and the **"*"** is used to check all files.
