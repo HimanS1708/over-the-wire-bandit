@@ -67,3 +67,7 @@ Commands -
 ```
 
 Explanation - Went to the root folder then searched according to the given conditions. **2>/dev/null** avoids all displays where the Permission was denied.
+
+## Level 7 -> Level 8
+
+Commands - ```grep "millionth" data.txt```
