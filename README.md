@@ -71,3 +71,9 @@ Explanation - Went to the root folder then searched according to the given condi
 ## Level 7 -> Level 8
 
 Commands - ```grep "millionth" data.txt```
+
+## Level 8 -> Level 9
+
+Commands -```sort data.txt | uniq -u```
+
+Explanation - **Uniq** command removes duplicate strings only if they are adjacent. Used the **-u** tag to print the string that occurs only once.
