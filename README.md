@@ -70,10 +70,16 @@ Explanation - Went to the root folder then searched according to the given condi
 
 ## Level 7 -> Level 8
 
-Commands - ```grep "millionth" data.txt```
+Command - ```grep "millionth" data.txt```
 
 ## Level 8 -> Level 9
 
-Commands -```sort data.txt | uniq -u```
+Command -```sort data.txt | uniq -u```
 
 Explanation - **Uniq** command removes duplicate strings only if they are adjacent. Used the **-u** tag to print the string that occurs only once.
+
+## Level 9 -> Level 10
+
+Command -```grep -a "=====" data.txt```
+
+Explanation - The **"-a"** tag processes a binary file as if it were text. Manually searched for something that looked like a readable string🤷‍♀️.
