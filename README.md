@@ -16,7 +16,7 @@ Commands -
 
 ## Level 1 -> Level 2
 
-Command- ```cat < -```
+Command - ```cat < -```
 
 Explanation - The shell considers **"-"** to be an option, therefore we use the redirection operator.
 
@@ -74,24 +74,26 @@ Command - ```grep "millionth" data.txt```
 
 ## Level 8 -> Level 9
 
-Command -```sort data.txt | uniq -u```
+Command - ```sort data.txt | uniq -u```
 
 Explanation - **Uniq** command removes duplicate strings only if they are adjacent. Used the **-u** tag to print the string that occurs only once.
 
 ## Level 9 -> Level 10
 
-Command -```grep -a "=====" data.txt```
+Command - ```grep -a "=====" data.txt```
 
 Explanation - The **"-a"** tag processes a binary file as if it were text. Manually searched for something that looked like a readable string🤷‍♀️.
 
 ## Level 10 -> Level 11
 
-Command -```base64 -d data.txt```
+Command - ```base64 -d data.txt```
 
 Explanation - The **"-d"** tag decodes the data.
 
 ## Level 11 -> Level 12
 
-Command -```cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'```
+Command - ```cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'```
 
 Explanation - Rotated the small characters first and then the second characters. **NOTE:** Rotation by 13 is an inverse of itself.
+
+## Level 12 -> Level 13
