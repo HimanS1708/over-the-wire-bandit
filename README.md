@@ -149,3 +149,7 @@ Command - ```ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220`
 Explanation - Connected to a remote server using private key. **-i** option is used to select a file from which the key has to be read.
 
 ## Level 14 -> Level 15
+
+Command - ```echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000```
+
+Explanation - Used the **nc** command to send data to localhost on port 30000. The **Netcat (nc)** command is a command-line utility for reading and writing data between two computer networks. The communication happens using either **Transmission Control Protocol (TCP)** or **User Datagram Protocol (UDP)**.
