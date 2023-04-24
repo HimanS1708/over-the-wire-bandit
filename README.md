@@ -143,3 +143,9 @@ Commands -
 Explanation - The extensions of gzip, bzip2 and tar archives are **.gz, .bz2 and .tar** respectively. To unzip a compressed file we need to rename the file name to have the appropriate extension.
 
 ## Level 13 -> Level 14
+
+Command - ```ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220```
+
+Explanation - Connected to a remote server using private key. **-i** option is used to select a file from which the key has to be read.
+
+## Level 14 -> Level 15
